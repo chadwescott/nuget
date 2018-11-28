@@ -1,15 +1,17 @@
 using System.Data.Services;
 using System.ServiceModel.Activation;
 using System.Web.Routing;
+
 using Ninject;
+
 using NuGet.Server;
 using NuGet.Server.DataServices;
 using NuGet.Server.Infrastructure;
-using RouteMagic;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(CooperVision.NuGet.NuGetRoutes), "Start")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NuGetServer.NuGetRoutes), "Start")]
 
-namespace CooperVision.NuGet {
+namespace NuGetServer
+{
     public static class NuGetRoutes {
         public static void Start() {
             MapRoutes(RouteTable.Routes);

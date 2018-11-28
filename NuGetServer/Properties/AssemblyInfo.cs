@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CooperVision.NuGet")]
+[assembly: AssemblyTitle("NuGetServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CVI")]
-[assembly: AssemblyProduct("CooperVision.NuGet")]
+[assembly: AssemblyProduct("NuGetServer")]
 [assembly: AssemblyCopyright("Copyright © CVI 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
